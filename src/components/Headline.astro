@@ -1,0 +1,26 @@
+---
+const title = Astro.props.title
+// const title = Astro.props.title.replace(/Astro/gi, `<span class="text-gradient">Astro</span>`)
+---
+
+<!-- <h1 class="text-gradient" set:html={title}></h1> -->
+<h1 class="text-gradient">
+  <a href="https://advanced-astro.dev">{title}</a>
+</h1>
+
+<style>
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+</style>
