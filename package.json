@@ -1,7 +1,7 @@
 {
   "name": "@advanced-astro/split",
   "type": "module",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "license": "MIT",
   "author": {
     "name": "Advanced Astro",
@@ -32,13 +32,13 @@
     "build": "astro build",
     "preview": "vercel",
     "deploy": "vercel --prod",
-    "format:check": "prettier --check .",
-    "format:write": "prettier --cache --write src/**/*.astro",
+    "format:check": "prettier --check 'src/**/*.astro'",
+    "format:write": "prettier --cache --write 'src/**/*.astro'",
     "astro": "astro",
-    "webp": "go-webp remove=false change=true excludeFiles=\"favicon.png\""
+    "webp": "go-webp remove=false change=true excludeFiles='favicon.png'"
   },
   "dependencies": {
-    "astro": "^2.10.15"
+    "astro": "^3.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
