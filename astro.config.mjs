@@ -7,6 +7,9 @@ import robotsTxt from 'astro-robots-txt'
 
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    assets: true
+  },
   integrations: [sitemap(), compress(), compressor(), robotsTxt()],
-  site: 'https://base.advanced-astro.dev'
+  site: 'https://split.vercel.app'
 })

@@ -1,17 +1,17 @@
 {
-  "name": "@advanced-astro/base",
+  "name": "@advanced-astro/split",
   "type": "module",
   "version": "0.1.0",
   "license": "MIT",
   "author": {
     "name": "Advanced Astro",
     "email": "hi@advanced-astro.dev",
-    "url": "https://advanced-astro.dev"
+    "url": "https://split.advanced-astro.dev"
   },
-  "homepage": "https://github.com/advanced-astro/base#readme",
+  "homepage": "https://github.com/advanced-astro/split#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/advanced-astro/base.git"
+    "url": "https://github.com/advanced-astro/split.git"
   },
   "keywords": [
     "astro",
@@ -34,17 +34,24 @@
     "deploy": "vercel --prod",
     "format:check": "prettier --check .",
     "format:write": "prettier --cache --write src/**/*.astro",
-    "astro": "astro"
+    "astro": "astro",
+    "webp": "go-webp remove=false change=true excludeFiles=\"favicon.png\""
   },
   "dependencies": {
-    "astro": "^2.10.7"
+    "astro": "^2.10.15"
   },
   "devDependencies": {
-    "astro-compress": "^2.0.5",
+    "@types/node": "^20.5.7",
+    "astro-compress": "^2.0.14",
     "astro-compressor": "^0.4.0",
     "astro-robots-txt": "^0.5.0",
     "astro-sitemap": "^0.6.0",
-    "prettier": "^3.0.1",
-    "prettier-plugin-astro": "^0.11.0"
+    "autoprefixer": "^10.4.15",
+    "open-props": "^1.5.15",
+    "postcss-jit-props": "^1.0.13",
+    "postcss-nesting": "^12.0.1",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0",
+    "typescript": "^5.2.2"
   }
 }
