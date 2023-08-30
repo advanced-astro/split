@@ -17,7 +17,6 @@ const { title } = Astro.props
         font-display: swap;
         font-style: normal;
         src: url("/fonts/inter-subset.woff2") format("woff2");
-
       }
       @font-face {
         font-family: "Lora";
@@ -37,14 +36,12 @@ const { title } = Astro.props
     --color-bg-dark: #13151a;
     --color-bg-light: hsl(10, 21%, 95%);
   }
-
   /* Box sizing rules */
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-
   /* Remove default margin */
   body,
   main,
@@ -59,19 +56,16 @@ const { title } = Astro.props
   dd {
     margin: 0;
   }
-
   /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
   ul[role='list'],
   ol[role='list'] {
     list-style: none;
     padding-left: 0;
   }
-
   /* Set core root defaults */
   html:focus-within {
     scroll-behavior: smooth;
   }
-
   /* Set core body defaults */
   body {
     font-family: Inter, sans-serif;
@@ -79,14 +73,12 @@ const { title } = Astro.props
     min-height: 100vh;
     text-rendering: optimizeSpeed;
   }
-
   /* Make images easier to work with */
   img,
   picture {
     max-width: 100%;
     display: block;
   }
-
   /* Inherit fonts for inputs and buttons */
   input,
   button,
@@ -94,13 +86,11 @@ const { title } = Astro.props
   select {
     font: inherit;
   }
-
   /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
   @media (prefers-reduced-motion: reduce) {
     html:focus-within {
       scroll-behavior: auto;
     }
-
     *,
     *::before,
     *::after {

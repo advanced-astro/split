@@ -11,5 +11,5 @@ export default defineConfig({
     assets: true
   },
   integrations: [sitemap(), compress(), compressor(), robotsTxt()],
-  site: 'https://split.vercel.app'
+  site: 'https://astro-split.vercel.app/'
 })

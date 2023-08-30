@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/Layout.astro'
-import Headline from '~/components/Headline.astro'
+import Header from '~/components/Header.astro'
 import Footer from '~/components/Footer.astro'
 
 import { Site } from '~/data/config'
@@ -14,9 +14,7 @@ const title = Site.title
     </figure>
     <div class="rightcontent w-col w-col-6 w-col-stack">
       <div class="content">
-        <div class="name">Imani Jones</div>
-        <h1 class="tagline">Designer. Stylist. Nomad.</h1>
-        <p class="bio">Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra <a href="#" class="bio-links">luctus urna</a> ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, <a href="#" class="bio-links">ipsum in</a> malesuada congue, <a href="#" class="bio-links">purus sem</a> ullamcorper massa, sit amet lacinia nibh enim sed massa. </p>
+        <Header />
         <div class="links w-row">
           <div class="column w-col w-col-4">
             <div class="text-block-2">Connect</div>
@@ -74,36 +72,19 @@ const title = Site.title
       transition: all .25s linear;
     }
   }
-  .name {
-    margin-bottom: 40px;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-
-    @media (--motionOK) {
-      animation: var(--animation-fade-in) forwards;
-    }
-  }
-  .tagline {
-    margin-bottom: 40px;
-    font-size: 58px;
-    line-height: 100%;
-    font-weight: 600;
-  }
-
   .rightcontent {
+    align-items: flex-start;
+    align-self: center;
+    background-image: var(--gradient-9);
     display: flex;
     place-items: center;
+    height: 100vh;
     justify-content: center;
     overflow: auto;
     padding: 120px;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
-    align-items: flex-start;
-    align-self: center;
-    background-image: var(--gradient-9);
 
     @media (--OSdark) {
       background-image: var(--gradient-23);
@@ -112,13 +93,6 @@ const title = Site.title
     @media (--motionOK) {
       animation: var(--animation-fade-in);
     }
-  }
-  .bio {
-    margin-bottom: 40px;
-    font-family: Lora, sans-serif;
-    color: #848d96;
-    font-size: 21px;
-    line-height: 140%;
   }
   .text-block-2 {
     margin-bottom: 20px;
@@ -147,55 +121,57 @@ const title = Site.title
     margin-bottom: 40px;
     flex: 0 auto;
   }
-.bio-links {
-  border-bottom: 1px solid #848d96;
-  text-decoration: none;
-}
-.credit-links {
-  color: #485462;
-}
-.image {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  display: block;
-  min-height: 100vh;
-  min-width: 100%;
-  align-self: flex-start;
-  flex: 0 auto;
-  background-image: url(/images/split.webp);
-  background-position: 50% 50%;
-  background-size: cover;
-  object-fit: cover;
-}
-@media screen and (max-width: 991px) {
-  .rightcontent {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-  .links {
-    display: flex;
-    flex-direction: column;
-  }
-  .column {
-    margin-bottom: 20px;
-  }
-  .column-2 {
-    margin-bottom: 20px;
+  .credit-links {
+    color: #485462;
   }
   .image {
-    position: static;
-    height: 420px;
-    max-height: 50vh;
-    min-height: auto;
-    background-position: 50% 20%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: block;
+    min-height: 100vh;
+    min-width: 100%;
+    align-self: flex-start;
+    flex: 0 auto;
+    background-image: url(/images/split.webp);
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
   }
-}
-
-  @media screen and (max-width: 767px) {
-    .name {
+  @media screen and (max-width: 991px) {
+    .rightcontent {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+    .column {
       margin-bottom: 20px;
     }
+    .column-2 {
+      margin-bottom: 20px;
+    }
+    .credit-links {
+      color: #485462;
+    }
+    .image {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      display: block;
+      min-height: 100vh;
+      min-width: 100%;
+      align-self: flex-start;
+      flex: 0 auto;
+      background-image: url(/images/split.webp);
+      background-position: 50% 50%;
+      background-size: cover;
+      object-fit: cover;
+    }
+  }
+  @media screen and (max-width: 767px) {
     .rightcontent {
       padding: 60px;
     }
@@ -205,19 +181,12 @@ const title = Site.title
       font-size: 42px;
       line-height: 42px;
     }
-
-    .bio {
-      font-size: 16px;
-    }
-
     .credit {
       font-size: 12px;
     }
-
     .rightcontent {
       padding: 30px;
     }
-
     .image {
       height: 240px;
       max-height: 30vh;

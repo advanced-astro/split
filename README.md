@@ -1,6 +1,8 @@
 # Advanced Astro Split
 
-[Advanced Astro](https://advanced-astro.dev) Port of [Split](https://onepagelove.com/split) Template
+♻️ Port of [Split](https://onepagelove.com/split) Template to [Astro](https://astro.build)
+➡️ [Live Demo](https://astro-split.vercel.app/)
+💯 Pagespeed Scores
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/advanced-astro/split)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/advanced-astro/split)
