@@ -2,7 +2,10 @@
 import Layout from '~/layouts/Layout.astro'
 import Headline from '~/components/Headline.astro'
 import Footer from '~/components/Footer.astro'
+import Footer from '~/components/Footer.astro'
 
+import { Site } from '~/data/config'
+const title = Site.title
 import { Site } from '~/data/config'
 const title = Site.title
 ---
@@ -182,7 +185,48 @@ const title = Site.title
   }
   .column-2 {
     margin-bottom: 20px;
+.bio-links {
+  border-bottom: 1px solid #848d96;
+  text-decoration: none;
+}
+.credit-links {
+  color: #485462;
+}
+.image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: block;
+  min-height: 100vh;
+  min-width: 100%;
+  align-self: flex-start;
+  flex: 0 auto;
+  background-image: url(/images/split.webp);
+  background-position: 50% 50%;
+  background-size: cover;
+  object-fit: cover;
+}
+@media screen and (max-width: 991px) {
+  .rightcontent {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .column {
+    margin-bottom: 20px;
+  }
+  .column-2 {
+    margin-bottom: 20px;
+  }
+  .image {
+    position: static;
+    height: 420px;
+    max-height: 50vh;
+    min-height: auto;
+    background-position: 50% 20%;
   .image {
     position: static;
     height: 420px;
@@ -199,7 +243,38 @@ const title = Site.title
     .rightcontent {
       padding: 60px;
     }
+}
+
+  @media screen and (max-width: 767px) {
+    .name {
+      margin-bottom: 20px;
+    }
+    .rightcontent {
+      padding: 60px;
+    }
   }
+  @media screen and (max-width: 479px) {
+    .bold-text {
+      font-size: 42px;
+      line-height: 42px;
+    }
+
+    .bio {
+      font-size: 16px;
+    }
+
+    .credit {
+      font-size: 12px;
+    }
+
+    .rightcontent {
+      padding: 30px;
+    }
+
+    .image {
+      height: 240px;
+      max-height: 30vh;
+    }
   @media screen and (max-width: 479px) {
     .bold-text {
       font-size: 42px;
