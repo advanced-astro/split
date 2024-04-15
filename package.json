@@ -44,7 +44,7 @@
     "@types/node": "^20.5.7",
     "astro-compress": "^2.0.14",
     "astro-compressor": "^0.4.0",
-    "astro-robots-txt": "^0.5.0",
+    "astro-robots-txt": "^1.0.0",
     "astro-sitemap": "^1.0.0",
     "autoprefixer": "^10.4.15",
     "open-props": "^1.5.15",
