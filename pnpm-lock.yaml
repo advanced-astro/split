@@ -38,7 +38,7 @@ importers:
         version: 1.0.14(postcss@8.4.38)
       postcss-nesting:
         specifier: ^12.0.1
-        version: 12.1.1(postcss@8.4.38)
+        version: 12.1.2(postcss@8.4.38)
       prettier:
         specifier: ^3.0.3
         version: 3.2.5
@@ -1929,8 +1929,8 @@ packages:
     peerDependencies:
       postcss: ^8.2.8
 
-  postcss-nesting@12.1.1:
-    resolution: {integrity: sha512-qc74KvIAQNa5ujZKG1UV286dhaDW6basbUy2i9AzNU/T8C9hpvGu9NZzm1SfePe2yP7sPYgpA8d4sPVopn2Hhw==}
+  postcss-nesting@12.1.2:
+    resolution: {integrity: sha512-FUmTHGDNundodutB4PUBxt/EPuhgtpk8FJGRsBhOuy+6FnkR2A8RZWIsyyy6XmhvX2DZQQWIkvu+HB4IbJm+Ew==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -4650,7 +4650,7 @@ snapshots:
       postcss: 8.4.38
       tiny-glob: 0.2.9
 
-  postcss-nesting@12.1.1(postcss@8.4.38):
+  postcss-nesting@12.1.2(postcss@8.4.38):
     dependencies:
       '@csstools/selector-resolve-nested': 1.1.0(postcss-selector-parser@6.0.16)
       '@csstools/selector-specificity': 3.0.3(postcss-selector-parser@6.0.16)
