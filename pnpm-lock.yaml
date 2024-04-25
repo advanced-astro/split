@@ -32,7 +32,7 @@ importers:
         version: 10.4.19(postcss@8.4.38)
       open-props:
         specifier: ^1.5.15
-        version: 1.7.3
+        version: 1.7.4
       postcss-jit-props:
         specifier: ^1.0.13
         version: 1.0.14(postcss@8.4.38)
@@ -1846,8 +1846,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  open-props@1.7.3:
-    resolution: {integrity: sha512-AzTMcnpVEM06oUUhcJmM5Ip0V7S/lSNBKKGz9R6Q8W3wRuJcgEQgXNl4l1K8/STyKWgs9F/2a2dQzq9RTUfMWg==}
+  open-props@1.7.4:
+    resolution: {integrity: sha512-LfzWOJq4I79GxtpT1/CucxujndqWjAdcC2H6gSJo1TmFGzyGv1VJWJQ1BQnui0/YgTNI+AaG1pEcq5/DCGL8RQ==}
 
   ora@7.0.1:
     resolution: {integrity: sha512-0TUxTiFJWv+JnjWm4o9yvuskpEJLXTcng8MJuKd+SzAzp2o+OP3HWqNhB4OdJRt1Vsd9/mR0oyaEYlOnL7XIRw==}
@@ -4590,7 +4590,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  open-props@1.7.3: {}
+  open-props@1.7.4: {}
 
   ora@7.0.1:
     dependencies:
