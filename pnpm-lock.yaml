@@ -17,7 +17,7 @@ importers:
         version: 20.14.2
       astro-compress:
         specifier: ^2.0.14
-        version: 2.2.27(@types/node@20.14.2)(typescript@5.4.5)
+        version: 2.2.28(@types/node@20.14.2)(typescript@5.4.5)
       astro-compressor:
         specifier: ^0.4.0
         version: 0.4.1
@@ -619,16 +619,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@playform/pipe@0.0.5':
-    resolution: {integrity: sha512-lUQTs5duOtnBvpfFzoiIUuZt6148PcEYv3pESm7kTaVaFAb2shhYLdueYcy4Jr1F6gCFsCv6jUvAwDD1f8f5ZQ==}
-    peerDependencies:
-      '@playform/build': 0.0.9
-      '@playform/document': 0.0.7
-    peerDependenciesMeta:
-      '@playform/build':
-        optional: true
-      '@playform/document':
-        optional: true
+  '@playform/pipe@0.0.6':
+    resolution: {integrity: sha512-dsW6Dyq9yNLOSw0iV7iD0P13pqmKFk2YjlGzgJOM7Qnl05Vdv0beFz0MquOma7rCE+Kg4njCPNAQUDsSss8xZw==}
 
   '@rollup/rollup-android-arm-eabi@4.18.0':
     resolution: {integrity: sha512-Tya6xypR10giZV1XzxmH5wr25VcZSncG0pZIjfePT0OVBvqNEurzValetGNarVrGiq66EBVAFn15iYX4w6FKgQ==}
@@ -732,8 +724,8 @@ packages:
   '@types/cookie@0.6.0':
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
-  '@types/css-tree@2.3.7':
-    resolution: {integrity: sha512-LUlutQBpR2TgqZJdvXCPOx9EME7a4PHSEo2Y2c8POFpj1E9a6V94PUZNwjVdfHWyb8RQZoNHTYOKs980+sOi+g==}
+  '@types/css-tree@2.3.8':
+    resolution: {integrity: sha512-zABG3nI2UENsx7AQv63tI5/ptoAG/7kQR1H0OvG+WTWYHOR5pfAT3cGgC8SdyCrgX/TTxJBZNmx82IjCXs1juQ==}
 
   '@types/csso@5.0.4':
     resolution: {integrity: sha512-W/FsRkm/9c04x9ON+bj+HQ0cSgNkG1LvcfuBCpkP7cpikM7+RkrNFLGtiofb++xBG6KGMUycLoDbi9/K621ZCw==}
@@ -761,9 +753,6 @@ packages:
 
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
-
-  '@types/node@20.12.12':
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
 
   '@types/node@20.14.2':
     resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
@@ -823,8 +812,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-compress@2.2.27:
-    resolution: {integrity: sha512-T9SLt3+VbZRHIhOku2id78j/jOTCpRaocSc6PA2ryE+5AdErU5AvdGB3j937945i0RAp+vKx41v50kj8hMyrAA==}
+  astro-compress@2.2.28:
+    resolution: {integrity: sha512-6vfP34YQzuRu+3S8ufmG4924NXZ8D095ii+BLNbkroDgAxlL5C6T6L47BSWdkSXofHvNMIa8nIVAGW+AUjubiw==}
 
   astro-compressor@0.4.1:
     resolution: {integrity: sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==}
@@ -1035,8 +1024,8 @@ packages:
   decode-named-character-reference@1.0.2:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
 
-  deepmerge-ts@7.0.1:
-    resolution: {integrity: sha512-Qbiitd155MxdVp/ww9M6eeRPPMiWOugA34ptYOBQzOcFlPYl6JcWZLho6WvLmPDuxHLyLymhIN3YxrBleqZX9g==}
+  deepmerge-ts@7.0.3:
+    resolution: {integrity: sha512-dxFbFO2RSIhPNBPL/j8Nvdt6/vrkW9+uGf1NLah/QxBGAVbK9fj2fGTO+HwdHpPAyFAsyT9iEn/1SI9SUvespw==}
     engines: {node: '>=16.0.0'}
 
   dequal@2.0.3:
@@ -2704,10 +2693,10 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@playform/pipe@0.0.5':
+  '@playform/pipe@0.0.6':
     dependencies:
-      '@types/node': 20.12.12
-      deepmerge-ts: 7.0.1
+      '@types/node': 20.14.2
+      deepmerge-ts: 7.0.3
       fast-glob: 3.3.2
 
   '@rollup/rollup-android-arm-eabi@4.18.0':
@@ -2785,11 +2774,11 @@ snapshots:
 
   '@types/cookie@0.6.0': {}
 
-  '@types/css-tree@2.3.7': {}
+  '@types/css-tree@2.3.8': {}
 
   '@types/csso@5.0.4':
     dependencies:
-      '@types/css-tree': 2.3.7
+      '@types/css-tree': 2.3.8
 
   '@types/debug@4.1.12':
     dependencies:
@@ -2814,10 +2803,6 @@ snapshots:
       '@types/unist': 2.0.10
 
   '@types/node@17.0.45': {}
-
-  '@types/node@20.12.12':
-    dependencies:
-      undici-types: 5.26.5
 
   '@types/node@20.14.2':
     dependencies:
@@ -2868,9 +2853,9 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-compress@2.2.27(@types/node@20.14.2)(typescript@5.4.5):
+  astro-compress@2.2.28(@types/node@20.14.2)(typescript@5.4.5):
     dependencies:
-      '@playform/pipe': 0.0.5
+      '@playform/pipe': 0.0.6
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
       astro: 4.10.2(@types/node@20.14.2)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.4.5)
@@ -2882,8 +2867,6 @@ snapshots:
       svgo: 3.3.2
       terser: 5.31.1
     transitivePeerDependencies:
-      - '@playform/build'
-      - '@playform/document'
       - '@types/node'
       - less
       - sass
@@ -3173,7 +3156,7 @@ snapshots:
     dependencies:
       character-entities: 2.0.2
 
-  deepmerge-ts@7.0.1: {}
+  deepmerge-ts@7.0.3: {}
 
   dequal@2.0.3: {}
 
