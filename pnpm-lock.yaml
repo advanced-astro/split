@@ -10,7 +10,7 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.14.0(@types/node@20.14.15)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4)
+        version: 4.14.2(@types/node@20.14.15)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4)
     devDependencies:
       '@types/node':
         specifier: ^20.5.7
@@ -674,8 +674,8 @@ packages:
   astro-sitemap@1.0.0:
     resolution: {integrity: sha512-N4cbJplN/eeP+V3I9ndbpWdr82oyjxRSqAp9yP2RetbvrnvHeDiJ9THLtRuvqw/UkvH94AToVfzpVBe+/4ZHXA==}
 
-  astro@4.14.0:
-    resolution: {integrity: sha512-UWUOy0aX+x3oDlItcrc4lgLqUXm63w6iChWnWiFijnfpUSJvogtKmJzb79ZmNj56i0ZVGhNVRsbtVhofJPdIXg==}
+  astro@4.14.2:
+    resolution: {integrity: sha512-x9VeYx8Ih6kYKBMVwwsfRzsZVq30+SUhiawnYQ6+46qQnEx3zH05KcH24HsJMe6dVpHD8HdH7CWR5C4o7Q/jeg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1888,8 +1888,8 @@ packages:
   vfile@6.0.2:
     resolution: {integrity: sha512-zND7NlS8rJYb/sPqkb13ZvbbUoExdbi4w3SfRrMq6R3FvnLQmmfpajJNITuuYm6AZ5uao9vy4BAos3EXBPf2rg==}
 
-  vite@5.4.0:
-    resolution: {integrity: sha512-5xokfMX0PIiwCMCMb9ZJcMyh5wbBun0zUzKib+L65vAZ8GY9ePZMXxFrHbr/Kyll2+LSCY7xtERPpxkBDKngwg==}
+  vite@5.4.1:
+    resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1956,6 +1956,10 @@ packages:
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
+
+  yargs-parser@21.1.1:
+    resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
+    engines: {node: '>=12'}
 
   yocto-queue@1.1.1:
     resolution: {integrity: sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==}
@@ -2530,7 +2534,7 @@ snapshots:
       '@playform/pipe': 0.1.0
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 4.14.0(@types/node@20.14.15)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4)
+      astro: 4.14.2(@types/node@20.14.15)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4)
       csso: 5.0.5
       deepmerge-ts: 7.1.0
       html-minifier-terser: 7.2.0
@@ -2563,7 +2567,7 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.22.2
 
-  astro@4.14.0(@types/node@20.14.15)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4):
+  astro@4.14.2(@types/node@20.14.15)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -2624,10 +2628,11 @@ snapshots:
       tsconfck: 3.1.1(typescript@5.5.4)
       unist-util-visit: 5.0.0
       vfile: 6.0.2
-      vite: 5.4.0(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3)
-      vitefu: 0.2.5(vite@5.4.0(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3))
+      vite: 5.4.1(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3)
+      vitefu: 0.2.5(vite@5.4.1(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3))
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
+      yargs-parser: 21.1.1
       zod: 3.23.8
       zod-to-json-schema: 3.23.2(zod@3.23.8)
       zod-to-ts: 1.2.0(typescript@5.5.4)(zod@3.23.8)
@@ -4113,7 +4118,7 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@5.4.0(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3):
+  vite@5.4.1(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
@@ -4124,9 +4129,9 @@ snapshots:
       lightningcss: 1.25.1
       terser: 5.31.3
 
-  vitefu@0.2.5(vite@5.4.0(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3)):
+  vitefu@0.2.5(vite@5.4.1(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3)):
     optionalDependencies:
-      vite: 5.4.0(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3)
+      vite: 5.4.1(@types/node@20.14.15)(lightningcss@1.25.1)(terser@5.31.3)
 
   web-namespaces@2.0.1: {}
 
@@ -4153,6 +4158,8 @@ snapshots:
   xxhash-wasm@1.0.2: {}
 
   yallist@3.1.1: {}
+
+  yargs-parser@21.1.1: {}
 
   yocto-queue@1.1.1: {}
 
