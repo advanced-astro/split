@@ -10,14 +10,14 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.16.16(@types/node@20.17.7)(lightningcss@1.27.0)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)
+        version: 4.16.16(@types/node@20.17.8)(lightningcss@1.27.0)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)
     devDependencies:
       '@types/node':
         specifier: ^20.5.7
-        version: 20.17.7
+        version: 20.17.8
       astro-compress:
         specifier: ^2.0.14
-        version: 2.3.5(@types/node@20.17.7)(rollup@4.27.4)(typescript@5.7.2)
+        version: 2.3.5(@types/node@20.17.8)(rollup@4.27.4)(typescript@5.7.2)
       astro-compressor:
         specifier: ^0.4.0
         version: 0.4.1
@@ -618,8 +618,8 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@20.17.7':
-    resolution: {integrity: sha512-sZXXnpBFMKbao30dUAvzKbdwA2JM1fwUtVEq/kxKuPI5mMwZiRElCpTXb0Biq/LMEVpXDZL5G5V0RPnxKeyaYg==}
+  '@types/node@20.17.8':
+    resolution: {integrity: sha512-ahz2g6/oqbKalW9sPv6L2iRbhLnojxjYWspAqhjvqSWBgGebEJT5GvRmk0QXPj3sbC6rU0GTQjPLQkmR8CObvA==}
 
   '@types/node@22.5.0':
     resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
@@ -2462,7 +2462,7 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
-  '@types/node@20.17.7':
+  '@types/node@20.17.8':
     dependencies:
       undici-types: 6.19.8
 
@@ -2472,7 +2472,7 @@ snapshots:
 
   '@types/sax@1.2.4':
     dependencies:
-      '@types/node': 20.17.7
+      '@types/node': 20.17.8
 
   '@types/unist@3.0.3': {}
 
@@ -2502,12 +2502,12 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-compress@2.3.5(@types/node@20.17.7)(rollup@4.27.4)(typescript@5.7.2):
+  astro-compress@2.3.5(@types/node@20.17.8)(rollup@4.27.4)(typescript@5.7.2):
     dependencies:
       '@playform/pipe': 0.1.1
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 4.16.16(@types/node@20.17.7)(lightningcss@1.27.0)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)
+      astro: 4.16.16(@types/node@20.17.8)(lightningcss@1.27.0)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2)
       commander: 12.1.0
       csso: 5.0.5
       deepmerge-ts: 7.1.3
@@ -2542,7 +2542,7 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.22.2
 
-  astro@4.16.16(@types/node@20.17.7)(lightningcss@1.27.0)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2):
+  astro@4.16.16(@types/node@20.17.8)(lightningcss@1.27.0)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -2598,8 +2598,8 @@ snapshots:
       tsconfck: 3.1.4(typescript@5.7.2)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
-      vite: 5.4.11(@types/node@20.17.7)(lightningcss@1.27.0)(terser@5.36.0)
-      vitefu: 1.0.4(vite@5.4.11(@types/node@20.17.7)(lightningcss@1.27.0)(terser@5.36.0))
+      vite: 5.4.11(@types/node@20.17.8)(lightningcss@1.27.0)(terser@5.36.0)
+      vitefu: 1.0.4(vite@5.4.11(@types/node@20.17.8)(lightningcss@1.27.0)(terser@5.36.0))
       which-pm: 3.0.0
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -4062,20 +4062,20 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@5.4.11(@types/node@20.17.7)(lightningcss@1.27.0)(terser@5.36.0):
+  vite@5.4.11(@types/node@20.17.8)(lightningcss@1.27.0)(terser@5.36.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
       rollup: 4.27.4
     optionalDependencies:
-      '@types/node': 20.17.7
+      '@types/node': 20.17.8
       fsevents: 2.3.3
       lightningcss: 1.27.0
       terser: 5.36.0
 
-  vitefu@1.0.4(vite@5.4.11(@types/node@20.17.7)(lightningcss@1.27.0)(terser@5.36.0)):
+  vitefu@1.0.4(vite@5.4.11(@types/node@20.17.8)(lightningcss@1.27.0)(terser@5.36.0)):
     optionalDependencies:
-      vite: 5.4.11(@types/node@20.17.7)(lightningcss@1.27.0)(terser@5.36.0)
+      vite: 5.4.11(@types/node@20.17.8)(lightningcss@1.27.0)(terser@5.36.0)
 
   web-namespaces@2.0.1: {}
 
