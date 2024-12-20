@@ -35,7 +35,7 @@ importers:
         version: 1.7.8
       postcss-jit-props:
         specifier: ^1.0.13
-        version: 1.0.14(postcss@8.4.49)
+        version: 1.0.15(postcss@8.4.49)
       postcss-nesting:
         specifier: ^12.0.1
         version: 12.1.5(postcss@8.4.49)
@@ -1544,8 +1544,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  postcss-jit-props@1.0.14:
-    resolution: {integrity: sha512-GimU4wen29Qr0DbDaAuWrj4NcErYR5x1rxcEFuPVAwF2HEZALydA8tpTMWEyThK7T2bwFTMFMA4G70pL55xUbw==}
+  postcss-jit-props@1.0.15:
+    resolution: {integrity: sha512-XHw5sCpuSo431tQ7Awaqlr4gfK+5HTR7JjofmUBLwJWa4vBO0okkNOXFgfPzf3QOHhfVgMtTbzeNqdNbUCf+nQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.2.8
@@ -3653,7 +3653,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  postcss-jit-props@1.0.14(postcss@8.4.49):
+  postcss-jit-props@1.0.15(postcss@8.4.49):
     dependencies:
       postcss: 8.4.49
       tiny-glob: 0.2.9
