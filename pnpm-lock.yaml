@@ -32,7 +32,7 @@ importers:
         version: 10.4.21(postcss@8.4.49)
       open-props:
         specifier: ^1.5.15
-        version: 1.7.15
+        version: 1.7.16
       postcss-jit-props:
         specifier: ^1.0.13
         version: 1.0.16(postcss@8.4.49)
@@ -1453,8 +1453,8 @@ packages:
   oniguruma-to-es@0.7.0:
     resolution: {integrity: sha512-HRaRh09cE0gRS3+wi2zxekB+I5L8C/gN60S+vb11eADHUaB/q4u8wGGOX3GvwvitG8ixaeycZfeoyruKQzUgNg==}
 
-  open-props@1.7.15:
-    resolution: {integrity: sha512-TvyN35N02w1wmIsz6SUInEo0RaVvSvIj794qlHjkmeTFuBYu2vzV6LbZyE5D8/c5UsGtRudl4ScK1jkabPBpGw==}
+  open-props@1.7.16:
+    resolution: {integrity: sha512-9dGv6wtah34stwweJytNEcCB0NG9HeV9wVsyr7Bs8RkKgrx2v0qIRi+9LQa5569nPbOpCOFF5nOxCPdKw30RAA==}
 
   ora@8.1.1:
     resolution: {integrity: sha512-YWielGi1XzG1UTvOaCFaNgEnuhZVMSHYkW/FQ7UX8O26PtlpdM84c0f7wLPlkvx2RfiQmnzd61d/MGxmpQeJPw==}
@@ -3541,7 +3541,7 @@ snapshots:
       regex: 5.0.2
       regex-recursion: 4.3.0
 
-  open-props@1.7.15: {}
+  open-props@1.7.16: {}
 
   ora@8.1.1:
     dependencies:
