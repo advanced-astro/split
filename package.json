@@ -38,7 +38,7 @@
     "webp": "go-webp remove=false change=true excludeFiles='favicon.png'"
   },
   "dependencies": {
-    "astro": "^4.0.0"
+    "astro": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
