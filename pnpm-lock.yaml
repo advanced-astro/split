@@ -10,14 +10,14 @@ importers:
     dependencies:
       astro:
         specifier: ^4.0.0
-        version: 4.16.19(@types/node@20.19.39)(lightningcss@1.32.0)(rollup@4.55.1)(terser@5.46.0)(typescript@5.9.3)
+        version: 4.16.19(@types/node@20.19.39)(lightningcss@1.32.0)(rollup@4.55.1)(terser@5.46.1)(typescript@5.9.3)
     devDependencies:
       '@types/node':
         specifier: ^20.5.7
         version: 20.19.39
       astro-compress:
         specifier: ^2.0.14
-        version: 2.4.0(@types/node@20.19.39)(rollup@4.55.1)(typescript@5.9.3)
+        version: 2.4.1(@types/node@20.19.39)(rollup@4.55.1)(typescript@5.9.3)
       astro-compressor:
         specifier: ^0.4.0
         version: 0.4.1
@@ -174,11 +174,8 @@ packages:
     peerDependencies:
       postcss-selector-parser: ^6.0.13
 
-  '@emnapi/runtime@1.4.5':
-    resolution: {integrity: sha512-++LApOtY0pEEz1zrd9vy1/zXVaVJJ/EbAF3u0fXIzPJEDtnITsBGbbK0EkM72amhl/R5b+5xx0Y/QhcVOpuulg==}
-
-  '@emnapi/runtime@1.9.0':
-    resolution: {integrity: sha512-QN75eB0IH2ywSpRpNddCRfQIhmJYBCJ1x5Lb3IscKAL8bMnVAKnRg8dCoXbHzVLLH7P38N2Z3mtulB7W0J0FKw==}
+  '@emnapi/runtime@1.9.2':
+    resolution: {integrity: sha512-3U4+MIWHImeyu1wnmVygh5WlgfYDtyf0k8AbLhMFxOipihf6nrWC4syIm/SwEeec0mNSafiiNnMJwbza/Is6Lw==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -619,8 +616,8 @@ packages:
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
 
-  '@playform/pipe@0.1.4':
-    resolution: {integrity: sha512-SM3iJ5VHA61NsYMrtvk8DAZwkrpPtBCiJnfWjj1iX6Ke/hnHLqVjTmkXG087UMOa9Z+3J/zUoAkzf3Al6tiS8A==}
+  '@playform/pipe@0.1.5':
+    resolution: {integrity: sha512-PYf/h1eUZGUoxEy0sagA3NBdcUp7+Bud/7Tvn7uYnulq1vsGtUCIkcrZF7/HjXD0ejJbTWSz3cXpIdqzceiFOw==}
 
   '@rollup/pluginutils@5.2.0':
     resolution: {integrity: sha512-qWJ2ZTbmumwiLFomfzTyt5Kng4hwPi9rwCYN4SHb6eaRU1KNO4ccxINHr/VhH4GgPlt1XfSTLX2LBTme8ne4Zw==}
@@ -949,9 +946,6 @@ packages:
   '@types/node@20.19.39':
     resolution: {integrity: sha512-orrrD74MBUyK8jOAD/r0+lfa1I2MO6I+vAkmAWzMYbCcgrN4lCrmK52gRFQq/JRxfYPfonkr4b0jcY7Olqdqbw==}
 
-  '@types/node@25.0.3':
-    resolution: {integrity: sha512-W609buLVRVmeW693xKfzHeIV6nJGGz98uCPfeXI1ELMLXVeKYZ9m15fAMSaUPBHYLGFsVRcMmSCksQOrZV9BYA==}
-
   '@types/sax@1.2.4':
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
 
@@ -1002,8 +996,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-compress@2.4.0:
-    resolution: {integrity: sha512-Vmh/HHoufajKORla9pAWToiENe5Ivqh3Dg5jA81qQ84sLfXOXGJcHT+2rz3KW35vL96ym968AUD8taFGrYHthw==}
+  astro-compress@2.4.1:
+    resolution: {integrity: sha512-bKPNuajD05ecjiZy/8nqTEOWErFttH/j+adWrvXTARcMieCdI5UdBvvhr+8lrpCXFImiYTwUongj2cDywlSW2Q==}
 
   astro-compressor@0.4.1:
     resolution: {integrity: sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==}
@@ -1989,8 +1983,8 @@ packages:
   sax@1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
 
-  sax@1.5.0:
-    resolution: {integrity: sha512-21IYA3Q5cQf089Z6tgaUTr7lDAyzoTPx5HRtbhsME8Udispad8dC/+sziTNugOEx54ilvatQ9YCzl4KQLPcRHA==}
+  sax@1.6.0:
+    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
     engines: {node: '>=11.0.0'}
 
   section-matter@1.0.0:
@@ -2093,8 +2087,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  terser@5.46.0:
-    resolution: {integrity: sha512-jTwoImyr/QbOWFFso3YoU3ik0jBBDJ6JTOQiy/J2YxVJdZCc+5u7skhNwiOR3FQIygFqVUPHl7qbbxtjW2K3Qg==}
+  terser@5.46.1:
+    resolution: {integrity: sha512-vzCjQO/rgUuK9sf8VJZvjqiqiHFaZLnOiimmUuOKODxWL8mm/xua7viT7aqX7dgPY60otQjUotzFMmCB4VdmqQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2138,9 +2132,6 @@ packages:
 
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
-
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
@@ -2471,12 +2462,7 @@ snapshots:
     dependencies:
       postcss-selector-parser: 6.1.0
 
-  '@emnapi/runtime@1.4.5':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
-  '@emnapi/runtime@1.9.0':
+  '@emnapi/runtime@1.9.2':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -2698,12 +2684,12 @@ snapshots:
 
   '@img/sharp-wasm32@0.33.5':
     dependencies:
-      '@emnapi/runtime': 1.4.5
+      '@emnapi/runtime': 1.9.2
     optional: true
 
   '@img/sharp-wasm32@0.34.5':
     dependencies:
-      '@emnapi/runtime': 1.9.0
+      '@emnapi/runtime': 1.9.2
     optional: true
 
   '@img/sharp-win32-arm64@0.34.5':
@@ -2754,9 +2740,9 @@ snapshots:
 
   '@oslojs/encoding@1.1.0': {}
 
-  '@playform/pipe@0.1.4':
+  '@playform/pipe@0.1.5':
     dependencies:
-      '@types/node': 25.0.3
+      '@types/node': 20.19.39
       deepmerge-ts: 7.1.5
       fast-glob: 3.3.3
 
@@ -2995,10 +2981,6 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@25.0.3':
-    dependencies:
-      undici-types: 7.16.0
-
   '@types/sax@1.2.4':
     dependencies:
       '@types/node': 20.19.39
@@ -3033,12 +3015,12 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-compress@2.4.0(@types/node@20.19.39)(rollup@4.55.1)(typescript@5.9.3):
+  astro-compress@2.4.1(@types/node@20.19.39)(rollup@4.55.1)(typescript@5.9.3):
     dependencies:
-      '@playform/pipe': 0.1.4
+      '@playform/pipe': 0.1.5
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 4.16.19(@types/node@20.19.39)(lightningcss@1.32.0)(rollup@4.55.1)(terser@5.46.0)(typescript@5.9.3)
+      astro: 4.16.19(@types/node@20.19.39)(lightningcss@1.32.0)(rollup@4.55.1)(terser@5.46.1)(typescript@5.9.3)
       commander: 14.0.3
       csso: 5.0.5
       deepmerge-ts: 7.1.5
@@ -3048,7 +3030,7 @@ snapshots:
       lightningcss: 1.32.0
       sharp: 0.34.5
       svgo: 4.0.1
-      terser: 5.46.0
+      terser: 5.46.1
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3073,7 +3055,7 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.22.2
 
-  astro@4.16.19(@types/node@20.19.39)(lightningcss@1.32.0)(rollup@4.55.1)(terser@5.46.0)(typescript@5.9.3):
+  astro@4.16.19(@types/node@20.19.39)(lightningcss@1.32.0)(rollup@4.55.1)(terser@5.46.1)(typescript@5.9.3):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.4.1
@@ -3129,8 +3111,8 @@ snapshots:
       tsconfck: 3.1.6(typescript@5.9.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.3
-      vite: 5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.0)
-      vitefu: 1.1.1(vite@5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.0))
+      vite: 5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.1)
+      vitefu: 1.1.1(vite@5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.1))
       which-pm: 3.0.1
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -3569,7 +3551,7 @@ snapshots:
       entities: 4.5.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.46.0
+      terser: 5.46.1
 
   html-void-elements@3.0.0: {}
 
@@ -4389,7 +4371,7 @@ snapshots:
 
   sax@1.2.4: {}
 
-  sax@1.5.0: {}
+  sax@1.6.0: {}
 
   section-matter@1.0.0:
     dependencies:
@@ -4543,9 +4525,9 @@ snapshots:
       css-what: 6.2.2
       csso: 5.0.5
       picocolors: 1.1.1
-      sax: 1.5.0
+      sax: 1.6.0
 
-  terser@5.46.0:
+  terser@5.46.1:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.16.0
@@ -4578,8 +4560,6 @@ snapshots:
   typescript@5.9.3: {}
 
   undici-types@6.21.0: {}
-
-  undici-types@7.16.0: {}
 
   unified@11.0.5:
     dependencies:
@@ -4664,7 +4644,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.0):
+  vite@5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.6
@@ -4673,11 +4653,11 @@ snapshots:
       '@types/node': 20.19.39
       fsevents: 2.3.3
       lightningcss: 1.32.0
-      terser: 5.46.0
+      terser: 5.46.1
 
-  vitefu@1.1.1(vite@5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.0)):
+  vitefu@1.1.1(vite@5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.1)):
     optionalDependencies:
-      vite: 5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.0)
+      vite: 5.4.19(@types/node@20.19.39)(lightningcss@1.32.0)(terser@5.46.1)
 
   web-namespaces@2.0.1: {}
 
