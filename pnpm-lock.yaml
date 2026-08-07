@@ -17,7 +17,7 @@ importers:
         version: 20.19.43
       astro-compress:
         specifier: ^2.0.14
-        version: 2.4.2(@types/node@20.19.43)(rollup@4.46.3)(typescript@5.9.3)
+        version: 2.4.3(@types/node@20.19.43)(rollup@4.46.3)(typescript@5.9.3)
       astro-compressor:
         specifier: ^0.4.0
         version: 0.4.1
@@ -838,11 +838,6 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  acorn@8.17.0:
-    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-
   acorn@8.18.0:
     resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
     engines: {node: '>=0.4.0'}
@@ -879,8 +874,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-compress@2.4.2:
-    resolution: {integrity: sha512-ERjC/csa7+JRu5Ko11kiaTZ7Xc9QZy7v2mCy6dhcCllJ6g2pTtU2jtzLdFJ58nWNDtiicX7/6XeoppwIV9gOhA==}
+  astro-compress@2.4.3:
+    resolution: {integrity: sha512-HQGC4EZyRDG0Ccw0T0s3Q2PNiENPP2PcjZp55LXLikraUSW9KK3ky0lYHVtbUjhFg3nqujdwtIc9iJjJ7FZQsQ==}
 
   astro-compressor@0.4.1:
     resolution: {integrity: sha512-IAgYAlxYRMolaptsFB9quH7RxX4eUeC4UfULCPhT+ILcg7m1kbaxuyUKqGg9Hh+KZ+FNPPDAz7DqUfl+HDWhQg==}
@@ -1979,11 +1974,6 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  terser@5.49.1:
-    resolution: {integrity: sha512-7A2xlQ5EnGT8KPA92dUh6RbRYTVw8hEaEN9L1K68l4UOXFuV511NnAqObGoRqGOQofQcMypisu1s3xawCEHrvA==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   terser@5.49.2:
     resolution: {integrity: sha512-rGbJiKeQ4WDe3EXlDAIaQcwftVfv2Q8o1awFNfvXolJYKkb1AuZY1RTOmqx4LJXZENbWZA7eIsYGHuEzHsi1nQ==}
     engines: {node: '>=10'}
@@ -2836,8 +2826,6 @@ snapshots:
 
   acorn@8.15.0: {}
 
-  acorn@8.17.0: {}
-
   acorn@8.18.0: {}
 
   ansi-align@3.0.1:
@@ -2862,7 +2850,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-compress@2.4.2(@types/node@20.19.43)(rollup@4.46.3)(typescript@5.9.3):
+  astro-compress@2.4.3(@types/node@20.19.43)(rollup@4.46.3)(typescript@5.9.3):
     dependencies:
       '@playform/pipe': 0.1.6
       '@types/csso': 5.0.5
@@ -3400,7 +3388,7 @@ snapshots:
       entities: 4.5.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.49.1
+      terser: 5.49.2
 
   html-void-elements@3.0.0: {}
 
@@ -4348,17 +4336,10 @@ snapshots:
       picocolors: 1.1.1
       sax: 1.6.1
 
-  terser@5.49.1:
-    dependencies:
-      '@jridgewell/source-map': 0.3.11
-      acorn: 8.18.0
-      commander: 2.20.3
-      source-map-support: 0.5.21
-
   terser@5.49.2:
     dependencies:
       '@jridgewell/source-map': 0.3.11
-      acorn: 8.17.0
+      acorn: 8.18.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
